@@ -6,6 +6,10 @@ document.body.style.backgroundColor = 'silver'
 
 const heading = document.getElementById('title')
 heading.style.color = 'green'
+heading.style.fontSize = '36px';
+heading.style.textAlign = 'center';
+
+
 
 //QUESTION 3
 
@@ -35,11 +39,18 @@ if(vegetableList){
     vegetableList.appendChild(newVeggie)
 }
 
+const banner = document.getElementById('banner');
+banner.style.width = '80%';
+banner.style.display = 'block';
+banner.style.margin = '20px auto';
+banner.style.borderRadius = '15px';
 
 
 
-
-
+const description = document.getElementById('description');
+description.style.fontSize = '18px';
+description.style.textAlign = 'center';
+description.style.fontStyle = 'italic';
 
 
 
