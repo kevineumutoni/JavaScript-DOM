@@ -6,7 +6,7 @@ document.body.style.backgroundColor = 'silver'
 
 const heading = document.getElementById('title')
 heading.style.color = 'green'
-heading.style.fontSize = '36px';
+heading.style.fontSize = '40px';
 heading.style.textAlign = 'center';
 
 
@@ -18,6 +18,7 @@ const h3Elements = document.querySelectorAll('h3');
 h3Elements.forEach(h3 => {
   h3.style.textTransform = "uppercase";
   h3.style.color = 'green'
+  h3.style.fontSize = '30px'
 });
 
 //QUESTION 4
@@ -30,6 +31,8 @@ if (fruitsList) {
   fruitsList.appendChild(newFruit);
 }
 
+fruitsList.style.fontSize = '20px'
+
 //QUESTION 5
 
 const vegetableList = document.querySelector("#vegList")
@@ -38,6 +41,7 @@ if(vegetableList){
     const newVeggie = document.createElement("li")
     newVeggie.textContent = "Spinach"
     vegetableList.appendChild(newVeggie)
+    vegetableList.style.fontSize= '20px'
 }
 
 const banner = document.getElementById('banner');
@@ -49,7 +53,7 @@ banner.style.borderRadius = '15px';
 
 
 const description = document.getElementById('description');
-description.style.fontSize = '18px';
+description.style.fontSize = '28px';
 description.style.textAlign = 'center';
 description.style.fontStyle = 'italic';
 
