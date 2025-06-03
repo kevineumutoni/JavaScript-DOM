@@ -17,6 +17,7 @@ const h3Elements = document.querySelectorAll('h3');
 
 h3Elements.forEach(h3 => {
   h3.style.textTransform = "uppercase";
+  h3.style.color = 'green'
 });
 
 //QUESTION 4
