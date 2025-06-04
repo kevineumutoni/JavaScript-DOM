@@ -38,7 +38,6 @@ allListItems.forEach(item => {
     item.style.transition = 'all 0.2s ease';
 });
 
-
 const description = document.getElementById('description');
 description.style.fontSize = '28px';
 description.style.color= 'green'
