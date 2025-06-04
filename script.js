@@ -47,6 +47,6 @@ description.style.fontStyle = 'italic';
 //footer and copyright
 const footer = document.createElement('footer');
 footer.innerHTML = `
-    <p>© ${new Date().getFullYear()} Greens Kiosk - Fresh Produce Daily</p>
+    <p>&copy ${new Date().getFullYear()} Greens Kiosk - Fresh Produce Daily</p>
 `;
 document.body.appendChild(footer);
