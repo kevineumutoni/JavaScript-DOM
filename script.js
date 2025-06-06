@@ -14,7 +14,9 @@ for (let i = 0; i < h3Elements.length; i++) {
     h3Elements[i].style.fontSize = "30px";
 
 
+
 }
+
 
 // Question 4
 
@@ -43,7 +45,7 @@ description.style.color= 'green'
 description.style.textAlign = 'center';
 description.style.fontStyle = 'italic';
 
-
+//footer and copyright
 const footer = document.createElement('footer');
 footer.innerHTML = `
     <p>© ${new Date().getFullYear()} Greens Kiosk - Fresh Produce Daily</p>
